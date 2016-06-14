@@ -16,6 +16,7 @@ namespace GetWithTheFlow
             Console.WriteLine("Yes or No");
 
             string firstAnswer = Console.ReadLine();
+            //adding .ToLower() to string name makes all answers of yes lowercase
             if (firstAnswer.ToLower() == "yes")
             {
                 Console.WriteLine("Keep doing what you are doing.");
