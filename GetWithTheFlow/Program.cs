@@ -13,7 +13,7 @@ namespace GetWithTheFlow
 
 
             Console.WriteLine("Are You Happy?");
-            Console.WriteLine("Yes or No");
+            Console.WriteLine("Type: Yes or No");
 
             string firstAnswer = Console.ReadLine();
 
@@ -26,12 +26,12 @@ namespace GetWithTheFlow
                 Console.ReadKey();
             }
 
+            //put the rest of the code in else to keep afinal else from repeating if it has already been stated above
 
-            
             else
             {
                 Console.WriteLine("Do you want to be happy?");
-                Console.WriteLine("Yes or No");
+                Console.WriteLine("Type: Yes or No");
 
 
                 string finalAnswer = Console.ReadLine();
